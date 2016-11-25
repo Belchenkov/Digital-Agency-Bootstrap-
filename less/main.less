@@ -20,7 +20,7 @@ body{
 }
 
 // Typography
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6 {
   margin: 0 0 35px;
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -137,4 +137,73 @@ a:hover, a:focus{
   .intro-text {
     font-size: 30px;
   }
+}
+
+//Content Section
+
+.content-section {
+  padding: 70px 0 40px 0;
+}
+
+//Icon Block
+.block-icon-left {
+  overflow: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.icon-content {
+  float: left;
+  width: 70%;
+}
+
+.icon {
+  float: left;
+  width: 30%;
+  margin-top: 10px;
+}
+
+.who-section {
+  width: 100%;
+  padding: 50px 0;
+  color: @light;
+  background: @dark url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+@media(min-width: 767px) {
+  .who-section {
+    padding: 100px 0;
+  }
+}
+
+//Client Section
+
+#clients {
+  text-align: center;
+
+  img {
+    margin-right: 30px;
+  }
+  padding-bottom: 80px;
+}
+
+//Contact Section
+#contact {
+  background-color: @dark;
+  color: @light;
+  padding-bottom: 80px;
+}
+
+//Footer Section
+footer {
+  margin-top: 10px;
+  padding-top: 30px;
+  height: 80px;
+  text-align: center;
 }
